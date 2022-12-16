@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="isbn" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title id="title">MC Opacity</dc:title>
+    <dc:language>en</dc:language>
+    <dc:identifier id="isbn">Template Project v4</dc:identifier>
+    <meta refines="#isbn" property="identifier-type" scheme="onix:codelist5">02</meta>
+    <meta property="dcterms:modified">2022-11-28T02:35:14Z</meta>
+    <meta name="cover" content="cover-image"/>
+    <meta property="rendition:layout">pre-paginated</meta>
+    <meta property="rendition:orientation">landscape</meta>
+    <meta property="rendition:spread">none</meta>
+    <dc:source>NOID</dc:source>
+    <dc:publisher>Express Publishing</dc:publisher>
+    <dc:rights>Express Publishing</dc:rights>
+  </metadata>
+  <manifest>
+    <item id="toc" properties="nav" href="TOC.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml" activityId="211018" activityName="cover" moduleId="46222" moduleName="Cover" skillType="Miscellaneous"/>
+    <item id="cover-image" properties="cover-image" href="images/Template_Project_v4_cover_epub.jpg" media-type="image/jpeg"/>
+    <item id="s001" href="s001-Lesson-001.xhtml" media-type="application/xhtml+xml" activityId="219958" activityName="Opener" moduleId="44675" moduleName="Module 1" skillType="Miscellaneous"/>
+    <item id="s002" href="s002-Lesson-002.xhtml" media-type="application/xhtml+xml" activityId="211017" activityName="Opener Unit 1" moduleId="44675" moduleName="Module 1" skillType="Miscellaneous"/>
+    <item id="s003" properties="scripted" href="s003-Lesson-003.xhtml" media-type="application/xhtml+xml" activityId="219962" activityName="Exercise 1" moduleId="44675" moduleName="Module 1" skillType="Reading"/>
+    <item id="s004" properties="scripted" href="s004-Lesson-004.xhtml" media-type="application/xhtml+xml" activityId="219964" activityName="Exercise 2" moduleId="44675" moduleName="Module 1" skillType="Vocabulary"/>
+    <item id="s005" properties="scripted" href="s005-Lesson-005.xhtml" media-type="application/xhtml+xml" activityId="219966" activityName="Exercise 3" moduleId="44675" moduleName="Module 1" skillType="Vocabulary"/>
+    <item id="s006" properties="scripted" href="s006-Lesson-006.xhtml" media-type="application/xhtml+xml" activityId="219969" activityName="Exercise 4" moduleId="44675" moduleName="Module 1" skillType="Vocabulary"/>
+    <item id="s007" properties="scripted" href="s007-Lesson-007.xhtml" media-type="application/xhtml+xml" activityId="219971" activityName="Exercise 5" moduleId="44675" moduleName="Module 1" skillType="Vocabulary"/>
+    <item id="s008" properties="scripted" href="s008-Lesson-008.xhtml" media-type="application/xhtml+xml" activityId="219973" activityName="Exercise 6" moduleId="44675" moduleName="Module 1" skillType="Vocabulary"/>
+    <item id="s009" properties="scripted" href="s009-Lesson-009.xhtml" media-type="application/xhtml+xml" activityId="219975" activityName="Exercise 7" moduleId="44675" moduleName="Module 1" skillType="Vocabulary"/>
+    <item id="s010" properties="scripted" href="s010-Lesson-010.xhtml" media-type="application/xhtml+xml" activityId="219976" activityName="Exercise 8" moduleId="44675" moduleName="Module 1" skillType="Vocabulary"/>
+    <item id="s011" properties="scripted" href="s011-Lesson-011.xhtml" media-type="application/xhtml+xml" activityId="219978" activityName="Exercise 9" moduleId="44675" moduleName="Module 1" skillType="Vocabulary"/>
+    <item id="s012" properties="scripted" href="s012-Lesson-012.xhtml" media-type="application/xhtml+xml" activityId="219980" activityName="Exercise 10" moduleId="44675" moduleName="Module 1" skillType="Writing"/>
+    <item id="s013" properties="scripted" href="s013-Lesson-013.xhtml" media-type="application/xhtml+xml" activityId="219983" activityName="Exercise 11" moduleId="44675" moduleName="Module 1" skillType="Vocabulary"/>
+    <item id="s014" properties="scripted" href="s014-Lesson-014.xhtml" media-type="application/xhtml+xml" activityId="219985" activityName="Exercise 11a" moduleId="44675" moduleName="Module 1" skillType="Reading"/>
+    <item id="s015" properties="scripted" href="s015-Lesson-015.xhtml" media-type="application/xhtml+xml" activityId="219987" activityName="Exercise 11b" moduleId="44675" moduleName="Module 1" skillType="Vocabulary"/>
+    <item id="s016" properties="scripted" href="s016-Lesson-016.xhtml" media-type="application/xhtml+xml" activityId="219992" activityName="Exercise 12" moduleId="44675" moduleName="Module 1" skillType="Grammar"/>
+    <item id="s017" href="s017-Lesson-017.xhtml" media-type="application/xhtml+xml" activityId="219993" activityName="Exercise 13" moduleId="44675" moduleName="Module 1" skillType="Grammar"/>
+    <item id="s018" href="s018-Lesson-018.xhtml" media-type="application/xhtml+xml" activityId="219994" activityName="Exercise 14" moduleId="44675" moduleName="Module 1" skillType="Miscellaneous"/>
+    <item id="images-001" href="images/audio-controls.png" media-type="image/png"/>
+    <item id="images-002" href="images/check1_small_small.png" media-type="image/png"/>
+    <item id="images-003" href="images/check_btn_small.png" media-type="image/png"/>
+    <item id="images-004" href="images/contents_be_online_online.png" media-type="image/png"/>
+    <item id="images-005" href="images/graphics_1_reading_onscreen_c1_ss_int_online.jpg" media-type="image/jpeg"/>
+    <item id="images-006" href="images/graphics_flash_6ano_ss_online.jpg" media-type="image/jpeg"/>
+    <item id="images-007" href="images/hashtag_english_3_ss_m1_0_online.jpg" media-type="image/jpeg"/>
+    <item id="images-008" href="images/hashtag_english_3_ss_m1_1_online.jpg" media-type="image/jpeg"/>
+    <item id="images-009" href="images/icon_correct_online.png" media-type="image/png"/>
+    <item id="images-010" href="images/icon_wrong_online.png" media-type="image/png"/>
+    <item id="images-011" href="images/load1_small_small.png" media-type="image/png"/>
+    <item id="images-012" href="images/load_btn_small.png" media-type="image/png"/>
+    <item id="images-013" href="images/p05_e02_31_online.png" media-type="image/png"/>
+    <item id="images-014" href="images/p05_e02_32_online.png" media-type="image/png"/>
+    <item id="images-015" href="images/p05_e02_33_online.png" media-type="image/png"/>
+    <item id="images-016" href="images/p05_e02_41_online.png" media-type="image/png"/>
+    <item id="images-017" href="images/p05_e02_42_online.png" media-type="image/png"/>
+    <item id="images-018" href="images/p05_e02_43_online.png" media-type="image/png"/>
+    <item id="images-019" href="images/p10ex1_bg_iw_str_actbk_int_online.jpg" media-type="image/jpeg"/>
+    <item id="images-020" href="images/p10ex1_ch1_1_iw_str_actbk_int_online.png" media-type="image/png"/>
+    <item id="images-021" href="images/p10ex1_ch1_2_iw_str_actbk_int_online.png" media-type="image/png"/>
+    <item id="images-022" href="images/p10ex1_ch1_3_iw_str_actbk_int_online.png" media-type="image/png"/>
+    <item id="images-023" href="images/p10ex1_ch2_1_iw_str_actbk_int_online.png" media-type="image/png"/>
+    <item id="images-024" href="images/p10ex1_ch2_2_iw_str_actbk_int_online.png" media-type="image/png"/>
+    <item id="images-025" href="images/p10ex1_ch2_3_iw_str_actbk_int_online.png" media-type="image/png"/>
+    <item id="images-026" href="images/p10ex1_ch3_1_iw_str_actbk_int_online.png" media-type="image/png"/>
+    <item id="images-027" href="images/p10ex1_ch3_2_iw_str_actbk_int_online.png" media-type="image/png"/>
+    <item id="images-028" href="images/p10ex1_ch3_3_iw_str_actbk_int_online.png" media-type="image/png"/>
+    <item id="images-029" href="images/p10ex1_ch4_1_iw_str_actbk_int_online.png" media-type="image/png"/>
+    <item id="images-030" href="images/p10ex1_ch4_2_iw_str_actbk_int_online.png" media-type="image/png"/>
+    <item id="images-031" href="images/p10ex1_ch4_3_iw_str_actbk_int_online.png" media-type="image/png"/>
+    <item id="images-032" href="images/p10ex1_ch5_1_iw_str_actbk_int_online.png" media-type="image/png"/>
+    <item id="images-033" href="images/p10ex1_ch5_2_iw_str_actbk_int_online.png" media-type="image/png"/>
+    <item id="images-034" href="images/p10ex1_ch5_3_iw_str_actbk_int_online.png" media-type="image/png"/>
+    <item id="images-035" href="images/p34_e1_00_online.png" media-type="image/png"/>
+    <item id="images-036" href="images/p34_e1_01_online.png" media-type="image/png"/>
+    <item id="images-037" href="images/p34_e1_02_online.png" media-type="image/png"/>
+    <item id="images-038" href="images/p34_e1_03_online.png" media-type="image/png"/>
+    <item id="images-039" href="images/p34_e1_04_online.png" media-type="image/png"/>
+    <item id="images-040" href="images/p35_e3_00_online.png" media-type="image/png"/>
+    <item id="images-041" href="images/p35_e3_01_online.png" media-type="image/png"/>
+    <item id="images-042" href="images/p35_e3_02_online.png" media-type="image/png"/>
+    <item id="images-043" href="images/p35_e3_03_online.png" media-type="image/png"/>
+    <item id="images-044" href="images/p35_e3_04_online.png" media-type="image/png"/>
+    <item id="images-045" href="images/p35_e3_05_online.png" media-type="image/png"/>
+    <item id="images-046" href="images/p35_e3_06_online.png" media-type="image/png"/>
+    <item id="images-047" href="images/p35_e3_07_online.png" media-type="image/png"/>
+    <item id="images-048" href="images/p35_e3_08_online.png" media-type="image/png"/>
+    <item id="images-049" href="images/p52_e1_01_online.png" media-type="image/png"/>
+    <item id="images-050" href="images/p52_e1_02_online.png" media-type="image/png"/>
+    <item id="images-051" href="images/p52_e1_03_online.png" media-type="image/png"/>
+    <item id="images-052" href="images/p52_e1_1_online.png" media-type="image/png"/>
+    <item id="images-053" href="images/p52_e1_2_online.png" media-type="image/png"/>
+    <item id="images-054" href="images/p52_e1_3_online.png" media-type="image/png"/>
+    <item id="images-055" href="images/p52_e1_4_online.png" media-type="image/png"/>
+    <item id="images-056" href="images/p52_e1_5_online.png" media-type="image/png"/>
+    <item id="images-057" href="images/p52_e1_6_online.png" media-type="image/png"/>
+    <item id="images-058" href="images/p6ex1_wp1_iw_str_actbk_int_online.png" media-type="image/png"/>
+    <item id="images-059" href="images/p6ex1_wp2_iw_str_actbk_int_online.png" media-type="image/png"/>
+    <item id="images-060" href="images/p6ex1_wp3_iw_str_actbk_int_online.png" media-type="image/png"/>
+    <item id="images-061" href="images/p6ex1_wp4_iw_str_actbk_int_online.png" media-type="image/png"/>
+    <item id="images-062" href="images/p6ex1_wp5_iw_str_actbk_int_online.png" media-type="image/png"/>
+    <item id="images-063" href="images/pause_white.png" media-type="image/png"/>
+    <item id="images-064" href="images/play_white.png" media-type="image/png"/>
+    <item id="images-065" href="images/puzzle1_001_online.png" media-type="image/png"/>
+    <item id="images-066" href="images/puzzle1_002_online.png" media-type="image/png"/>
+    <item id="images-067" href="images/puzzle1_003_online.png" media-type="image/png"/>
+    <item id="images-068" href="images/puzzle2_001_online.png" media-type="image/png"/>
+    <item id="images-069" href="images/puzzle2_002_online.png" media-type="image/png"/>
+    <item id="images-070" href="images/puzzle2_003_online.png" media-type="image/png"/>
+    <item id="images-071" href="images/puzzle3_001_online.png" media-type="image/png"/>
+    <item id="images-072" href="images/puzzle3_002_online.png" media-type="image/png"/>
+    <item id="images-073" href="images/puzzle3_003_online.png" media-type="image/png"/>
+    <item id="images-074" href="images/puzzle4_001_online.png" media-type="image/png"/>
+    <item id="images-075" href="images/puzzle4_002_online.png" media-type="image/png"/>
+    <item id="images-076" href="images/puzzle4_003_online.png" media-type="image/png"/>
+    <item id="images-077" href="images/reset1_small_small.png" media-type="image/png"/>
+    <item id="images-078" href="images/reset_btn_small.png" media-type="image/png"/>
+    <item id="images-079" href="images/sample_board_game_online.jpg" media-type="image/jpeg"/>
+    <item id="images-080" href="images/save1_small_small.png" media-type="image/png"/>
+    <item id="images-081" href="images/save_btn_small.png" media-type="image/png"/>
+    <item id="images-082" href="images/show1_small_small.png" media-type="image/png"/>
+    <item id="images-083" href="images/show_btn_small.png" media-type="image/png"/>
+    <item id="images-084" href="images/spinning_wheel_numbers_online.png" media-type="image/png"/>
+    <item id="images-085" href="images/stop_white.png" media-type="image/png"/>
+    <item id="images-086" href="images/toolbar_arrow_online.png" media-type="image/png"/>
+    <item id="images-087" href="images/toolbar_audioscript_online.png" media-type="image/png"/>
+    <item id="images-088" href="images/toolbar_glossary_online.png" media-type="image/png"/>
+    <item id="images-089" href="images/toolbar_grammar_online.png" media-type="image/png"/>
+    <item id="images-090" href="images/toolbar_help_online.png" media-type="image/png"/>
+    <item id="images-091" href="images/toolbar_notes_online.png" media-type="image/png"/>
+    <item id="images-092" href="images/toolbar_story_online.png" media-type="image/png"/>
+    <item id="images-093" href="images/toolbar_video_online.png" media-type="image/png"/>
+    <item id="images-094" href="images/toolbar_video_redirect_online.png" media-type="image/png"/>
+    <item id="images-095" href="images/try_again_btn_d_small.png" media-type="image/png"/>
+    <item id="images-096" href="images/try_again_btn_small.png" media-type="image/png"/>
+    <item id="images-097" href="images/video_poster_online.png" media-type="image/png"/>
+    <item id="images-098" href="images/x_close_online.png" media-type="image/png"/>
+    <item id="audio-001" href="audio/active.mp3" media-type="audio/mpeg"/>
+    <item id="audio-002" href="audio/anxious.mp3" media-type="audio/mpeg"/>
+    <item id="audio-003" href="audio/attentionspan.mp3" media-type="audio/mpeg"/>
+    <item id="audio-004" href="audio/benefit.mp3" media-type="audio/mpeg"/>
+    <item id="audio-005" href="audio/bored.mp3" media-type="audio/mpeg"/>
+    <item id="audio-006" href="audio/cause.mp3" media-type="audio/mpeg"/>
+    <item id="audio-007" href="audio/con_1.mp3" media-type="audio/mpeg"/>
+    <item id="audio-008" href="audio/confident.mp3" media-type="audio/mpeg"/>
+    <item id="audio-009" href="audio/dealwith.mp3" media-type="audio/mpeg"/>
+    <item id="audio-010" href="audio/debunk.mp3" media-type="audio/mpeg"/>
+    <item id="audio-011" href="audio/decisionmakingability.mp3" media-type="audio/mpeg"/>
+    <item id="audio-012" href="audio/depression.mp3" media-type="audio/mpeg"/>
+    <item id="audio-013" href="audio/depth.mp3" media-type="audio/mpeg"/>
+    <item id="audio-014" href="audio/disability.mp3" media-type="audio/mpeg"/>
+    <item id="audio-015" href="audio/encourage.mp3" media-type="audio/mpeg"/>
+    <item id="audio-016" href="audio/endup.mp3" media-type="audio/mpeg"/>
+    <item id="audio-017" href="audio/goal.mp3" media-type="audio/mpeg"/>
+    <item id="audio-018" href="audio/improve.mp3" media-type="audio/mpeg"/>
+    <item id="audio-019" href="audio/industry.mp3" media-type="audio/mpeg"/>
+    <item id="audio-020" href="audio/lasting.mp3" media-type="audio/mpeg"/>
+    <item id="audio-021" href="audio/lonely.mp3" media-type="audio/mpeg"/>
+    <item id="audio-022" href="audio/memory.mp3" media-type="audio/mpeg"/>
+    <item id="audio-023" href="audio/mind.mp3" media-type="audio/mpeg"/>
+    <item id="audio-024" href="audio/myth.mp3" media-type="audio/mpeg"/>
+    <item id="audio-025" href="audio/positiveeffect.mp3" media-type="audio/mpeg"/>
+    <item id="audio-026" href="audio/pro.mp3" media-type="audio/mpeg"/>
+    <item id="audio-027" href="audio/require.mp3" media-type="audio/mpeg"/>
+    <item id="audio-028" href="audio/researcher.mp3" media-type="audio/mpeg"/>
+    <item id="audio-029" href="audio/sociallife.mp3" media-type="audio/mpeg"/>
+    <item id="audio-030" href="audio/socialskill.mp3" media-type="audio/mpeg"/>
+    <item id="audio-031" href="audio/stream.mp3" media-type="audio/mpeg"/>
+    <item id="audio-032" href="audio/truth.mp3" media-type="audio/mpeg"/>
+    <item id="audio-033" href="audio/turnout.mp3" media-type="audio/mpeg"/>
+    <item id="audio-034" href="audio/workout.mp3" media-type="audio/mpeg"/>
+    <item id="video-001" href="video/p12_mystery_inc.mp4" media-type="video/mp4"/>
+    <item id="js-001" href="js/aie_core.js" media-type="text/javascript"/>
+    <item id="js-002" href="js/aie_explore.js" media-type="text/javascript"/>
+    <item id="js-003" href="js/aie_qaa.js" media-type="text/javascript"/>
+    <item id="js-004" href="js/igp_audio.js" media-type="text/javascript"/>
+    <item id="js-005" href="js/jquery-1.9.1.min.js" media-type="text/javascript"/>
+    <item id="js-006" href="js/jquery-migrate-1.2.1.min.js" media-type="text/javascript"/>
+    <item id="js-007" href="js/jquery-ui.min.js" media-type="text/javascript"/>
+    <item id="js-008" href="js/match_puzzle.js" media-type="text/javascript"/>
+    <item id="js-009" href="js/pubsub.js" media-type="text/javascript"/>
+    <item id="js-010" href="js/aie_qaa_multi_choice_opacity.js" media-type="text/javascript"/>
+    <item id="js-011" href="js/aie_qaa_type_in_choose.js" media-type="text/javascript"/>
+    <item id="js-012" href="js/aie_qaa_tap_puzzle.js" media-type="text/javascript"/>
+    <item id="js-013" href="js/aie_qaa_ready.js" media-type="text/javascript"/>
+    <item id="js-014" href="js/sticky_bar_test.js" media-type="text/javascript"/>
+    <item id="css-001" href="css/Template_Project_v4.css" media-type="text/css"/>
+  </manifest>
+  <spine page-progression-direction="ltr">
+    <itemref idref="cover" linear="yes" properties="rendition:page-spread-center"/>
+    <itemref idref="s001" linear="no"/>
+    <itemref idref="s002" linear="no"/>
+    <itemref idref="s003" linear="yes"/>
+    <itemref idref="s004" linear="yes"/>
+    <itemref idref="s005" linear="yes"/>
+    <itemref idref="s006" linear="yes"/>
+    <itemref idref="s007" linear="yes"/>
+    <itemref idref="s008" linear="yes"/>
+    <itemref idref="s009" linear="yes"/>
+    <itemref idref="s010" linear="yes"/>
+    <itemref idref="s011" linear="yes"/>
+    <itemref idref="s012" linear="yes"/>
+    <itemref idref="s013" linear="yes"/>
+    <itemref idref="s014" linear="yes"/>
+    <itemref idref="s015" linear="yes"/>
+    <itemref idref="s016" linear="yes"/>
+    <itemref idref="s017" linear="yes"/>
+    <itemref idref="s018" linear="yes"/>
+  </spine>
+</package>

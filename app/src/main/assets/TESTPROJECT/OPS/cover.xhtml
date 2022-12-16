@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en">
+  <head>
+    <title>MC Opacity</title>
+	<meta name="viewport" content="width=1024, height=768"/>
+    <link rel="stylesheet" type="text/css" href="css/Template_Project_v4.css"/>
+    <meta charset="utf-8"/>
+  </head>
+  <body>
+   <section class="cover cover-rw Cover-rw"><img src="images/Template_Project_v4_cover_epub.jpg" alt="Cover: MC Opacity" epub:type="cover"/></section>
+<script type="text/javascript" id="webDepartmentTeamForDigi4">
+		window.onload = function () {
+			var trustedurl = '*';
+			window.parent.postMessage(JSON.stringify({action: 'pageload', value: document.location.href}), trustedurl);
+
+			var buttons = document.getElementsByTagName('button');
+			
+			for (var i=0;i&lt;buttons.length;i++) {
+				switch (buttons[i].textContent.trim()) {
+					case 'Check':
+						buttons[i].onclick = function () {
+							var scoreClasses = document.getElementsByClassName('qaa-set-results-rw');
+
+							if (scoreClasses.length == 0) {
+								scoreClasses = document.getElementsByClassName('score');
+							} else {
+								scoreClasses = scoreClasses[0].getElementsByClassName('score');
+							}
+
+							var score = scoreClasses[0].innerHTML.replace('%', '');
+							window.parent.postMessage(JSON.stringify({action: 'checkscore', value: score}), trustedurl);
+						};
+						break;
+					case 'Try Again':
+						buttons[i].onclick = function () {
+							window.parent.postMessage(JSON.stringify({action: 'tryagain', value: null}), trustedurl);
+						};
+						break;
+					case 'Reset':
+						buttons[i].onclick = function () {
+							window.parent.postMessage(JSON.stringify({action: 'reset', value: null}), trustedurl);
+						};
+						break;
+				}
+			}
+           window.addEventListener("message", function(event) {
+               switch(event.data){
+                   case "Show Answers":
+                       var elements = document.getElementsByClassName("qaa-rw");
+                       if (elements.length > 0) {
+                           AIE.Qaa.CustomFeature.showAnswers(elements);
+                       }
+                       break;
+               }
+           });
+    };
+	</script></body>
+</html>

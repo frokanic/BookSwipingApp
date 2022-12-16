@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>&#160;TAP PUZZLE 1</title>
+	<meta name="viewport" content="width=1024, height=768"/>
+    <link rel="stylesheet" href="css/Template_Project_v4.css" type="text/css"/>
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"/>
+    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"/>
+    <script type="text/javascript" src="js/jquery-ui.min.js"/>
+    <script type="text/javascript" src="js/pubsub.js"/>
+    <script type="text/javascript" src="js/aie_core.js"/>
+    <script type="text/javascript" src="js/aie_explore.js"/>
+    <script type="text/javascript" src="js/aie_qaa.js"/>
+    <script type="text/javascript" src="js/match_puzzle.js"/>
+    <script type="text/javascript" src="js/express_custom_tools.js"/>
+    <script type="text/javascript" src="js/aie_qaa_multi_choice_opacity.js"/>
+    <script type="text/javascript" src="js/aie_qaa_type_in_choose.js"/>
+    <script type="text/javascript" src="js/aie_qaa_tap_puzzle.js"/>
+    <script type="text/javascript" src="js/aie_qaa_ready.js"/>
+  </head>
+  <body>
+   <div class="galley-rw">
+      <section class="body-rw Lesson-rw unit_a unit_activities" id="Lesson3" epub:type="bodymatter chapter">
+         <div class="title-block-rw" id="title-block3">
+            <p class="sec_numb" id="sec_numb3">&#160;</p>
+            <h1 id="h15">&#160;</h1>
+            <h1 id="h16">TAP PUZZLE 1</h1>
+         </div>
+         <div class="block-rw outer_box" id="outer_box3">
+            <div class="block-rw boxed-rw" id="boxed3">
+               <div class="block-rw general-rw outer_white_background" id="general3">
+                  <p class="instruction-ep margin_top_30px" id="margin_top_30px3"><span class="style3-rw">3</span> TAP PUZZLE 1</p>
+                  <div class="block-rw white-background" id="white-background3">
+                     <div class="block-rw general-rw" id="general4">
+                        <div class="qaa-rw puzzle-match-i-rw puzzle-match-ex puzzle-image-ex" id="puzzle-match-i1">
+                           <div class="option-source" id="option-source2">
+                              <ol id="ol7" epub:type="list"><li id="li18"><img src="images/puzzle3_001_online.png" alt=""/></li>
+                                 <li id="li19"><img src="images/puzzle1_001_online.png" alt=""/></li>
+                                 <li id="li20"><img src="images/puzzle4_001_online.png" alt=""/></li>
+                                 <li id="li21"><img src="images/puzzle2_001_online.png" alt=""/></li>
+                              </ol><ol id="ol8" epub:type="list"><li id="li22"><img src="images/puzzle4_003_online.png" alt=""/></li>
+                                 <li id="li23"><img src="images/puzzle1_003_online.png" alt=""/></li>
+                                 <li id="li24"><img src="images/puzzle2_003_online.png" alt=""/></li>
+                                 <li id="li25"><img src="images/puzzle3_003_online.png" alt=""/></li>
+                              </ol><div class="match-images-rw" id="match-images1">
+                                 <p id="p1"><img src="images/puzzle1_002_online.png" alt=""/></p>
+                                 <p id="p2"><img src="images/puzzle2_002_online.png" alt=""/></p>
+                                 <p id="p3"><img src="images/puzzle3_002_online.png" alt=""/></p>
+                                 <p id="p4"><img src="images/puzzle4_002_online.png" alt=""/></p>
+                              </div>
+                           </div>
+                           <div class="answer-map" id="answer-map2">
+                              <ol id="ol9" epub:type="list"><li id="li26">2, 4, 1, 3</li>
+                                 <li id="li27">2, 3, 4, 1</li>
+                              </ol></div>
+                           <div class="feedback-messages" id="feedback-messages3">
+                              <p class="fbm correct" id="correct3">Correct</p>
+                              <p class="fbm wrong" id="wrong3">Wrong</p>
+                           </div>
+                           <div class="puzzle-score-rw" id="puzzle-score1">
+                              <p class="correct-score" id="correct-score5">Your score <span class="score">0%</span></p>
+                              <p class="correct-wrong-score" id="correct-wrong-score3">(<span class="score">0/0</span>)</p>
+                              <p class="correct-count" id="correct-count3">Correct <span class="score">0</span></p>
+                              <p class="wrong-count" id="wrong-count3">Wrong <span class="score">0</span></p>
+                           </div>
+                           <div class="buttons-rw" id="buttons3"><button class="check" id="check3">Check</button><button class="try-again" id="try-again3">Try Again</button><button class="clear-answers" id="clear-answers3">Reset</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <p class="go_back_href" id="go_back_href3" title="Go Back"><a href="s002-Lesson-002.xhtml#lesson17">Go Back</a></p>
+               <div class="block-rw footer1" id="footer13">&#160;</div>
+            </div>
+         </div>
+         <p><span class="pagebreak-rw" id="pagebreak-rw_" epub:type="pagebreak"/></p>
+      </section>
+   </div>
+<script type="text/javascript" id="webDepartmentTeamForDigi4">
+		window.onload = function () {
+			var trustedurl = '*';
+			window.parent.postMessage(JSON.stringify({action: 'pageload', value: document.location.href}), trustedurl);
+
+			var buttons = document.getElementsByTagName('button');
+			
+			for (var i=0;i&lt;buttons.length;i++) {
+				switch (buttons[i].textContent.trim()) {
+					case 'Check':
+						buttons[i].onclick = function () {
+							var scoreClasses = document.getElementsByClassName('qaa-set-results-rw');
+
+							if (scoreClasses.length == 0) {
+								scoreClasses = document.getElementsByClassName('score');
+							} else {
+								scoreClasses = scoreClasses[0].getElementsByClassName('score');
+							}
+
+							var score = scoreClasses[0].innerHTML.replace('%', '');
+							window.parent.postMessage(JSON.stringify({action: 'checkscore', value: score}), trustedurl);
+						};
+						break;
+					case 'Try Again':
+						buttons[i].onclick = function () {
+							window.parent.postMessage(JSON.stringify({action: 'tryagain', value: null}), trustedurl);
+						};
+						break;
+					case 'Reset':
+						buttons[i].onclick = function () {
+							window.parent.postMessage(JSON.stringify({action: 'reset', value: null}), trustedurl);
+						};
+						break;
+				}
+			}
+           window.addEventListener("message", function(event) {
+               switch(event.data){
+                   case "Show Answers":
+                       var elements = document.getElementsByClassName("qaa-rw");
+                       if (elements.length > 0) {
+                           AIE.Qaa.CustomFeature.showAnswers(elements);
+                       }
+                       break;
+               }
+           });
+    };
+	</script></body>
+</html>

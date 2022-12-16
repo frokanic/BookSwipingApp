@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Lesson</title>
+	<meta name="viewport" content="width=1024, height=768"/>
+    <link rel="stylesheet" href="css/Template_Project_v4.css" type="text/css"/>
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"/>
+    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"/>
+    <script type="text/javascript" src="js/jquery-ui.min.js"/>
+    <script type="text/javascript" src="js/pubsub.js"/>
+    <script type="text/javascript" src="js/express_custom_tools.js"/>
+  </head>
+  <body>
+   <div class="galley-rw">
+      <section class="body-rw Lesson-rw unit_pdf_page unit_pdf_page_1" id="lesson17" epub:type="bodymatter chapter">
+         <div class="title-block-rw" id="title-block17">&#160;</div>
+         <div class="block-rw outer_box" id="outer_box17">
+            <div class="block-rw boxed-rw" id="boxed17">
+               <div class="block-rw general-rw outer_white_background" id="general66">
+                  <div class="block-rw white-background" id="white-background17">
+                     <div class="block-rw general-rw pdf_page_container_12_13" id="general67">
+                        <div class="media-rw image-rw align-center-rw width-fixed-rw position_relative" id="image172">
+                           <div class="pc-rw" id="pc182"><img src="images/hashtag_english_3_ss_m1_1_online.jpg" alt=""/></div>
+                           <p class="ex_link" id="ex_link1"><a href="s005-Lesson-005.xhtml#Lesson3">&#160;</a></p>
+                           <p class="ex_link" id="ex_link2"><a href="s006-Lesson-006.xhtml#Lesson4">&#160;</a></p>
+                           <p class="ex_link" id="ex_link3"><a href="s007-Lesson-007.xhtml#Lesson5">&#160;</a></p>
+                           <p class="ex_link" id="ex_link4"><a href="s008-Lesson-008.xhtml#Lesson6">&#160;</a></p>
+                           <p class="ex_link" id="ex_link5"><a href="s009-Lesson-009.xhtml#Lesson7">&#160;</a></p>
+                           <p class="ex_link" id="ex_link6"><a href="s010-Lesson-010.xhtml#Lesson8">&#160;</a></p>
+                           <p class="ex_link" id="ex_link7"><a href="s004-Lesson-004.xhtml#Lesson2">&#160;</a></p>
+                           <p class="ex_link" id="ex_link8"><a href="s011-Lesson-011.xhtml#Lesson9">&#160;</a></p>
+                           <p class="ex_link" id="ex_link9"><a href="s016-Lesson-016.xhtml#lesson_001">&#160;</a></p>
+                           <p class="ex_link" id="ex_link10"><a href="s013-Lesson-013.xhtml#Lesson11">&#160;</a></p>
+                           <p class="nav_link left_nav_button" id="left_nav_button1" title="Previous Page"><a href="s001-Lesson-001.xhtml#lesson16">&#10148;</a></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="block-rw footer1" id="footer117">&#160;</div>
+            </div>
+         </div>
+         <p><span class="pagebreak-rw" id="pagebreak-rw_" epub:type="pagebreak"/></p>
+      </section>
+   </div>
+<script type="text/javascript" id="webDepartmentTeamForDigi4">
+		window.onload = function () {
+			var trustedurl = '*';
+			window.parent.postMessage(JSON.stringify({action: 'pageload', value: document.location.href}), trustedurl);
+
+			var buttons = document.getElementsByTagName('button');
+			
+			for (var i=0;i&lt;buttons.length;i++) {
+				switch (buttons[i].textContent.trim()) {
+					case 'Check':
+						buttons[i].onclick = function () {
+							var scoreClasses = document.getElementsByClassName('qaa-set-results-rw');
+
+							if (scoreClasses.length == 0) {
+								scoreClasses = document.getElementsByClassName('score');
+							} else {
+								scoreClasses = scoreClasses[0].getElementsByClassName('score');
+							}
+
+							var score = scoreClasses[0].innerHTML.replace('%', '');
+							window.parent.postMessage(JSON.stringify({action: 'checkscore', value: score}), trustedurl);
+						};
+						break;
+					case 'Try Again':
+						buttons[i].onclick = function () {
+							window.parent.postMessage(JSON.stringify({action: 'tryagain', value: null}), trustedurl);
+						};
+						break;
+					case 'Reset':
+						buttons[i].onclick = function () {
+							window.parent.postMessage(JSON.stringify({action: 'reset', value: null}), trustedurl);
+						};
+						break;
+				}
+			}
+           window.addEventListener("message", function(event) {
+               switch(event.data){
+                   case "Show Answers":
+                       var elements = document.getElementsByClassName("qaa-rw");
+                       if (elements.length > 0) {
+                           AIE.Qaa.CustomFeature.showAnswers(elements);
+                       }
+                       break;
+               }
+           });
+    };
+	</script></body>
+</html>

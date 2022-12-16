@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Lesson</title>
+	<meta name="viewport" content="width=1024, height=768"/>
+    <link rel="stylesheet" href="css/Template_Project_v4.css" type="text/css"/>
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"/>
+    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"/>
+    <script type="text/javascript" src="js/jquery-ui.min.js"/>
+    <script type="text/javascript" src="js/pubsub.js"/>
+    <script type="text/javascript" src="js/express_custom_tools.js"/>
+  </head>
+  <body>
+   <div class="galley-rw">
+      <section class="body-rw Lesson-rw unit_pdf_page unit_pdf_page_1" id="lesson16" epub:type="bodymatter chapter">
+         <div class="title-block-rw" id="title-block16">&#160;</div>
+         <div class="block-rw outer_box" id="outer_box16">
+            <div class="block-rw boxed-rw" id="boxed16">
+               <div class="block-rw general-rw outer_white_background" id="general64">
+                  <div class="block-rw white-background" id="white-background16">
+                     <div class="block-rw general-rw pdf_page_container" id="general65">
+                        <div class="media-rw image-rw align-center-rw width-fixed-rw position_relative" id="image171">
+                           <div class="pc-rw" id="pc181"><img src="images/hashtag_english_3_ss_m1_0_online.jpg" alt=""/></div>
+                           <p class="ex_link center_link" id="center_link1"><a href="s003-Lesson-003.xhtml#Lesson1">&#160;</a></p>
+                           <p class="nav_link right_nav_button" id="right_nav_button1" title="Next Page"><a href="s002-Lesson-002.xhtml#lesson17">&#10148;</a></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="block-rw footer1" id="footer116">&#160;</div>
+            </div>
+         </div>
+         <p><span class="pagebreak-rw" id="pagebreak-rw_" epub:type="pagebreak"/></p>
+      </section>
+   </div>
+<script type="text/javascript" id="webDepartmentTeamForDigi4">
+		window.onload = function () {
+			var trustedurl = '*';
+			window.parent.postMessage(JSON.stringify({action: 'pageload', value: document.location.href}), trustedurl);
+
+			var buttons = document.getElementsByTagName('button');
+			
+			for (var i=0;i&lt;buttons.length;i++) {
+				switch (buttons[i].textContent.trim()) {
+					case 'Check':
+						buttons[i].onclick = function () {
+							var scoreClasses = document.getElementsByClassName('qaa-set-results-rw');
+
+							if (scoreClasses.length == 0) {
+								scoreClasses = document.getElementsByClassName('score');
+							} else {
+								scoreClasses = scoreClasses[0].getElementsByClassName('score');
+							}
+
+							var score = scoreClasses[0].innerHTML.replace('%', '');
+							window.parent.postMessage(JSON.stringify({action: 'checkscore', value: score}), trustedurl);
+						};
+						break;
+					case 'Try Again':
+						buttons[i].onclick = function () {
+							window.parent.postMessage(JSON.stringify({action: 'tryagain', value: null}), trustedurl);
+						};
+						break;
+					case 'Reset':
+						buttons[i].onclick = function () {
+							window.parent.postMessage(JSON.stringify({action: 'reset', value: null}), trustedurl);
+						};
+						break;
+				}
+			}
+           window.addEventListener("message", function(event) {
+               switch(event.data){
+                   case "Show Answers":
+                       var elements = document.getElementsByClassName("qaa-rw");
+                       if (elements.length > 0) {
+                           AIE.Qaa.CustomFeature.showAnswers(elements);
+                       }
+                       break;
+               }
+           });
+    };
+	</script></body>
+</html>

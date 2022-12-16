@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Contents</title>
+    <link rel="stylesheet" href="css/Template_Project_v4.css" type="text/css"/>
+  </head>
+  <body>
+    <nav epub:type="toc" class="toc-rw"><h2>Contents</h2>
+  
+
+<ol epub:type="list"><li class="toc-chapter-rw"><a href="s001-Lesson-001.xhtml">Lesson</a></li>
+   <li class="toc-chapter-rw"><a href="s002-Lesson-002.xhtml">Lesson</a></li>
+   <li class="toc-chapter-rw"><a href="s003-Lesson-003.xhtml">&#160;</a></li>
+   <li class="toc-chapter-rw"><a href="s004-Lesson-004.xhtml">&#160;</a></li>
+   <li class="toc-chapter-rw"><a href="s005-Lesson-005.xhtml">&#160;</a></li>
+   <li class="toc-chapter-rw"><a href="s006-Lesson-006.xhtml">&#160;</a></li>
+   <li class="toc-chapter-rw"><a href="s007-Lesson-007.xhtml">&#160;</a></li>
+   <li class="toc-chapter-rw"><a href="s008-Lesson-008.xhtml">&#160;</a></li>
+   <li class="toc-chapter-rw"><a href="s009-Lesson-009.xhtml">&#160;</a></li>
+   <li class="toc-chapter-rw"><a href="s010-Lesson-010.xhtml">&#160;</a></li>
+   <li class="toc-chapter-rw"><a href="s011-Lesson-011.xhtml">&#160;</a></li>
+   <li class="toc-chapter-rw"><a href="s012-Lesson-012.xhtml">&#160;</a></li>
+   <li class="toc-chapter-rw"><a href="s013-Lesson-013.xhtml">&#160;</a></li>
+   <li class="toc-chapter-rw"><a href="s014-Lesson-014.xhtml">&#160;</a></li>
+   <li class="toc-chapter-rw"><a href="s015-Lesson-015.xhtml">&#160;</a></li>
+   <li class="toc-chapter-rw"><a href="s016-Lesson-016.xhtml">Sticky Bar</a></li>
+   <li class="toc-chapter-rw"><a href="s017-Lesson-017.xhtml">Sticky Bar</a></li>
+   <li class="toc-chapter-rw"><a href="s018-Lesson-018.xhtml">&#160;</a></li>
+</ol></nav>
+  <script type="text/javascript" id="webDepartmentTeamForDigi4">
+		window.onload = function () {
+			var trustedurl = '*';
+			window.parent.postMessage(JSON.stringify({action: 'pageload', value: document.location.href}), trustedurl);
+
+			var buttons = document.getElementsByTagName('button');
+			
+			for (var i=0;i&lt;buttons.length;i++) {
+				switch (buttons[i].textContent.trim()) {
+					case 'Check':
+						buttons[i].onclick = function () {
+							var scoreClasses = document.getElementsByClassName('qaa-set-results-rw');
+
+							if (scoreClasses.length == 0) {
+								scoreClasses = document.getElementsByClassName('score');
+							} else {
+								scoreClasses = scoreClasses[0].getElementsByClassName('score');
+							}
+
+							var score = scoreClasses[0].innerHTML.replace('%', '');
+							window.parent.postMessage(JSON.stringify({action: 'checkscore', value: score}), trustedurl);
+						};
+						break;
+					case 'Try Again':
+						buttons[i].onclick = function () {
+							window.parent.postMessage(JSON.stringify({action: 'tryagain', value: null}), trustedurl);
+						};
+						break;
+					case 'Reset':
+						buttons[i].onclick = function () {
+							window.parent.postMessage(JSON.stringify({action: 'reset', value: null}), trustedurl);
+						};
+						break;
+				}
+			}
+           window.addEventListener("message", function(event) {
+               switch(event.data){
+                   case "Show Answers":
+                       var elements = document.getElementsByClassName("qaa-rw");
+                       if (elements.length > 0) {
+                           AIE.Qaa.CustomFeature.showAnswers(elements);
+                       }
+                       break;
+               }
+           });
+    };
+	</script></body>
+</html>
