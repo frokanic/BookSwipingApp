@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.example.expresstrainingsecond.databinding.ItemSideMenuBinding
+import com.example.expresstrainingsecond.databinding.ItemSideMenuContentsBinding
 import com.example.expresstrainingsecond.domain.models.SideMenuItem
 
 
@@ -17,12 +17,12 @@ class SideMenuAdapter(
     var index = 1
 
 
-    inner class SideMenuViewHolder(val binding: ItemSideMenuBinding):
+    inner class SideMenuViewHolder(val binding: ItemSideMenuContentsBinding):
         RecyclerView.ViewHolder(binding.root)
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SideMenuViewHolder {
-        return SideMenuViewHolder(ItemSideMenuBinding.inflate(
+        return SideMenuViewHolder(ItemSideMenuContentsBinding.inflate(
             LayoutInflater.from(parent.context),
             parent,
             false

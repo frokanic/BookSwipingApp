@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.recyclerview.widget.RecyclerView
-import com.example.expresstrainingsecond.databinding.ItemViewPagerBinding
+import com.example.expresstrainingsecond.databinding.ItemViewPagerContentsBinding
 import com.example.expresstrainingsecond.domain.models.WebViewItems
 import com.example.readerexpresspub.util.Constants.filePathForWebView
 
@@ -16,12 +16,12 @@ class ViewPagerAdapter(
 
     private lateinit var webView: WebView
 
-    inner class ViewPagerViewHolder(val binding: ItemViewPagerBinding):
+    inner class ViewPagerViewHolder(val binding: ItemViewPagerContentsBinding):
         RecyclerView.ViewHolder(binding.root)
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewPagerViewHolder {
-        return ViewPagerViewHolder(ItemViewPagerBinding.inflate(
+        return ViewPagerViewHolder(ItemViewPagerContentsBinding.inflate(
                 LayoutInflater.from(parent.context),
                 parent,
                 false

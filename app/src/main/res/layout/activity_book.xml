@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
 <androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,48 +9,67 @@
     android:layout_height="match_parent"
     tools:context=".presentation.activity.book.BookActivity">
 
-    <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/viewPager"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
 
 
-    <com.google.android.material.navigation.NavigationView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:fitsSystemWindows="true">
+        <com.google.android.material.navigation.NavigationView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true">
 
-                <androidx.core.widget.NestedScrollView
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Contents" >
+
+
+                </com.google.android.material.tabs.TabItem>
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Pages" />
+
+            </com.google.android.material.tabs.TabLayout>
+
+                <androidx.fragment.app.FragmentContainerView
+                    android:id="@+id/flFragment"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
+                    android:layout_height="0dp"/>
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical" >
+        </com.google.android.material.navigation.NavigationView>
 
-                        <androidx.recyclerview.widget.RecyclerView
-                            android:id="@+id/rvSideMenu"
-                            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:visibility="visible"
-                            android:layout_marginStart="16dp"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/ibSideMenu" />
-
-                    </LinearLayout>
-
-                </androidx.core.widget.NestedScrollView>
-
-    </com.google.android.material.navigation.NavigationView>
 
 </androidx.drawerlayout.widget.DrawerLayout>
 
 
+
+
+<!--
+app:defaultNavHost="true"
+android:name="androidx.navigation.fragment.NavHostFragment"
+app:navGraph="@navigation/nav_graph"
+-->
+
+    <!--
+    <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/flFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+    -->

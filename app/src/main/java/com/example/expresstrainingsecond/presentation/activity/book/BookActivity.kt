@@ -64,11 +64,15 @@ class BookActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         sideMenuAdapter = SideMenuAdapter(items)
-        binding.rvSideMenu.adapter = sideMenuAdapter
+        //binding.rvSideMenu.adapter = sideMenuAdapter            //ΝΑ ΒΓΑΛΩ ΤΟ ΚΟΜΜΕΝΤ!!!!!!!!!!!!!
 
         sideMenuAdapter.setOnItemClickListener {
             binding.viewPager.setCurrentItem(items.indexOf(it))
         }
+    }
+
+    private fun tabLayoutNavigation() {
+
 
     }
 
